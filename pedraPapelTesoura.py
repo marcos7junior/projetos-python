@@ -11,7 +11,7 @@ if tecla == 'r':
     print('Tesoura vence papel')
     print('Papel vence pedra')
 
-jogadorAI = ['pedra', 'papel', 'tesoura']
+jogadorIA = ['pedra', 'papel', 'tesoura']
 
 objetos = []
         # 1: pedra, 2:tesoura, 3:papel
@@ -19,7 +19,7 @@ objetos = []
 while True:
     print('Digite pedra, papel ou tesoura')
     objetos.append(input('>: '))
-    objetos.append(jogadorAI[random.randint(0, 2)])
+    objetos.append(jogadorIA[random.randint(0, 2)])
     print('1....2.....3......e.....JÁ....')
     sleep(1)
 
